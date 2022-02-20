@@ -1,8 +1,54 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  background-image: linear-gradient(to right, #ff4b1f, #1fddff);
+  padding-left: 1.2%;
+  padding-right: 1.2%;
+}
+
+h1,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#nameDiv {
+  display: inline-block;
+  white-space: 0;
+}
+
+#surnameDiv {
+  display: inline-block;
+  white-space: 0;
+}
+
+#myName {
+  font-family: "Lalezar", cursive;
+  font-size: 50px;
+  color: #e0eafc;
+}
+
+#mySurname {
+  font-family: "Coda", cursive;
+  color: #b3bfd4;
+  font-size: 43px;
+}
+
+#my_snippet {
+  color: #e0eafc;
+  font-family: "Coda", cursive;
+}
+
+#navigationMenu {
+  font-family: "Coda", cursive;
+  color: #e0eafc;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  right: 3%;
+}
+
+.menuLinks {
+  margin: 15px;
 }
