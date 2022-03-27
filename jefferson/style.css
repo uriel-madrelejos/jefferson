@@ -1,52 +1,69 @@
 body {
   background-image: linear-gradient(to right, #ff4b1f, #1fddff);
-  padding-left: 1.2%;
-  padding-right: 1.2%;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 h1,
+h2
 h3,
 h4 {
   margin: 0;
   padding: 0;
 }
   
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-#nameDiv {
-  display: inline-block;
-  white-space: 0;
+#three-canvass-div {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  margin: 0;
+
 }
 
-#surnameDiv {
+#parent-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#banner-div {
+  position: absolute;
+  margin: 0;
+}
+
+#name-div {
   display: inline-block;
   white-space: 0;
 }
 
-#myName {
-  font-family: "Lalezar", cursive;
+#surname-div {
+  display: inline-block;
+  white-space: 0;
+}
+
+#my-name-header {
+  font-family: "Lalezar", sans-serif;
   font-size: 50px;
   color: #e0eafc;
 }
 
-#mySurname {
-  font-family: "Coda", cursive;
+#my-surname-span {
+  font-family: "Coda", sans-serif;
   color: #b3bfd4;
   font-size: 43px;
 }
 
-#my_snippet {
+#jeff-snippet-div {
   color: #e0eafc;
-  font-family: "Coda", cursive;
+  font-family: "Coda", sans-serif;
 }
 
-#navigationMenu {
-  font-family: "Coda", cursive;
+#navigation-menu-div {
+  font-family: "Coda", sans-serif;
   color: #e0eafc;
   font-size: 24px;
   display: flex;
@@ -56,6 +73,6 @@ canvas {
   right: 3%;
 }
 
-.menuLinks {
-  margin: 15px;
+.menu-link {
+  margin-left: 30px;
 }
