@@ -1,16 +1,13 @@
 {
   "name": "jefferson",
   "private": true,
+  "description": "Jefferson's personal site",
+  "main": "index.js",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1" 
   },
-  "devDependencies": {
-    "vite": "^2.8.0"
-  },
-  "dependencies": {
-    "three": "^0.137.5"
-  }
+  "author": "ujmadrelejos",
+  "license": "ISC"
+
 }
